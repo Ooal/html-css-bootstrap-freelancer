@@ -247,4 +247,21 @@ p {
 .fab {
   font-size: 25px;
 }
+
+.hovericon:hover {
+  background-color: white;
+}
+
+.hovericon:hover a {
+  color: black;
+}
+
+.linkfooter {
+  color: #18bc9c;
+}
+
+.linkfooter:hover {
+  color: #159a80;
+}
+
 /* footer */
