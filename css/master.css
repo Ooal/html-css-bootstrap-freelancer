@@ -1,26 +1,59 @@
+/* general */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-#sfondofisso {
-  background-color: #2c3e50;
+h1,h2,h3,h4 {
+  font-weight: bold;
+}
+
+h1,h2,h3,h4,p {
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.bianco {
   color: white;
-  position: fixed;
-  z-index: 999;
-  right: 0;
-  left: 0;
-  top: 0;
-  height: 80px;
 }
 
-#margine {
-  margin-top: 80px;
+.blu {
+  color: #2c3e50;
+}
+
+.linee {
+  display: inline-block;
+  width: 10%;
+  margin: 0;
+  margin: 8px 8px;
+  border-top: solid 3px ;
+}
+
+.lineebianche {
+  border-top: solid 3px white;
 }
 
 .distanze {
   padding: 50px 0;
+}
+
+.marginiblocchi {
+  margin: 20px 0;
 }
 
 .sfondoverde {
@@ -36,6 +69,39 @@
   background-color: #1a252f;
 }
 
+.difianco {
+  display: inline;
+  padding: 0 5px;
+}
+
+.centro {
+  text-align: center;
+}
+/* general */
+
+
+
+#sfondofisso {
+  background-color: #2c3e50;
+  color: white;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 80px;
+}
+
+.img6 {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#margine {
+  margin-top: 80px;
+}
+
 .start {
   text-align: left;
   line-height: 80px;
@@ -43,18 +109,13 @@
   font-size: 25px;
 }
 
-.linknav {
+.link {
   color: white;
 }
 
-.linknav:hover {
+.link:hover {
   text-decoration: none;
   color: #18bc9c;
-}
-
-.difianco {
-  display: inline;
-  padding: 0 5px;
 }
 
 #tabellanavbar {
@@ -63,10 +124,72 @@
   font-size: 15px;
 }
 
-.centro {
-  text-align: center;
-}
-
 .imgjumbotron  {
   max-width: 250px;
 }
+
+.stellina {
+  font-size: 25px;
+}
+
+.btndownload {
+  background-color: #18bc9c;
+  border-color: white;
+  color: white;
+  font-size: 20px;
+}
+
+.sfondoverde .btn-default:hover {
+  background-color: white;
+  color: black;
+}
+
+/* form */
+#contatti .form-group input, #contatti .form-group textarea {
+  border: none;
+  border-bottom: solid 1px #ccc;
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 20px;
+}
+
+.btnform {
+  background-color: #18bc9c;
+  border-color: #18bc9c;
+  color: white;
+  font-size: 20px;
+  padding: 13px 20px;
+}
+
+#contatti .btn-default:hover {
+  background-color: #159a80;
+  border-color: #148f77;
+  color: white;
+}
+/* form */
+
+/* footer */
+.bordo {
+  display: inline-block;
+  border: solid 1px white;
+  border-radius: 50%;
+  padding: 6px 12px;
+  margin: 5px 5px;
+}
+
+.bordogp {
+  padding: 6px 4px;
+}
+
+.bordotw {
+  padding: 6px 7px;
+}
+
+.bordoin {
+  padding: 6px 9px;
+}
+
+.fab {
+  font-size: 25px;
+}
+/* footer */
