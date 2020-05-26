@@ -134,6 +134,10 @@ p {
   line-height: 30px;
 }
 
+#sfondofisso .nav > li > a {
+  font-size: 19px;
+  font-weight: bold;
+}
 
 /* navbar */
 
