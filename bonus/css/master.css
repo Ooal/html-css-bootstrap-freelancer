@@ -273,3 +273,89 @@ p {
 }
 
 /* footer */
+
+
+
+
+
+/* modal */
+
+.partemodaleverde {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+  height: 100% !important;
+  width: 100% !important;
+  align-items: center !important;
+}
+
+.cursore {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.partemodaleverde:hover {
+  opacity: 1;
+}
+
+.plus {
+  font-size: 153px;
+  color: white;
+  text-align: center;
+}
+
+#modali .modal-dialog {
+  width: 100%; /*devo mettere la media con dimensione 100% in sx*/
+}
+
+.modal-header {
+  border-bottom: 0px;
+  }
+
+.fa-times {
+  font-size: 40px;
+  color: #18bc9c;
+}
+
+#modali .close {
+  opacity: 1;
+}
+
+.spaziimg6modali {
+  margin: 40px 0;
+}
+
+#modali p {
+  margin-bottom: 40px;
+}
+
+.bottonesotto .fa-times {
+  font-size: 20px;
+  color: white;
+}
+
+#modali .modal-header .fa-times:hover {
+  color: #159a80;
+}
+
+.bottonesotto {
+    background-color: #18bc9c;
+    border-color: #18bc9c;
+    color: white;
+    font-size: 20px;
+    border: 0.125rem solid transparent;
+    border-radius: 5px;
+    padding: 13px 20px;
+    margin-bottom: 40px;
+}
+
+.bottonesotto:hover {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
+}
